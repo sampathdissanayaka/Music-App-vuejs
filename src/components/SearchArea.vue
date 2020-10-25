@@ -17,7 +17,7 @@ export default{
 
             keyPressed(event){
                 var key = event.target.value;
-                console.log "Server started and collections cleared."
+            
                 cosole.log(key)
             }
 
