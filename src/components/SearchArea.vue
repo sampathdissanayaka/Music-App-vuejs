@@ -20,7 +20,7 @@ export default{
             keyPressed(event){
               var key = event.target.value;
             
-            axios.get("https://api.spotify.com/v1/search?q="+ key + "&type=track")
+            axios.get("https://api.spotify.com/v1/search?q="+ key + "&type=tracks")
                  .then(response=>{
                      console.log(response.data)
                  })
