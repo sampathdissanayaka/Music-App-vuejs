@@ -15,10 +15,10 @@ export default{
  
     methods:{
 
-            keyPressed:function(){
-              // var key = event.target.value;
+            keyPressed(event){
+              var key = event.target.value;
             
-                console.log("chamara")
+                console.log(key)
             }
 
 
